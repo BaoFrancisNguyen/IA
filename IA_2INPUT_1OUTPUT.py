@@ -4,10 +4,14 @@ import numpy as np
 x_entree = np.array(([3, 1.5], [2, 1], [4, 1.5], [3, 1], [3.5,0.5], [2,0.5], [5.5,1], [1,1], [4,1.5]), dtype=float) # données d'entree
 y = np.array(([1], [0], [1],[0],[1],[0],[1],[0]), dtype=float) # données de sortie /  1 = rouge /  0 = bleu
 
-## L'exemple donné est fait à partir de 7 entrées définies (couple données d'entrée + résultats), pour trouver la 8ème valeur prédictive. 
+## L'exemple donné est fait à partir de 7 entrées définies (couple données d'entrée + résultats), pour trouver la 8ème valeur prédictive
+## en gros un apprentissage supervisé qu'on peut encore alimenter.
+
 ## 1/Il faudrait créer une interface graphite permettant des INPUT de couple valeur + résultat (faisable avec Django je pense). 
 ## 2/ Puis INPUT valeur pour valeur de sortie (résultat) donnée par l'IA
+
 ## 3/ INPUT du nombre d'itérations (cycle d'entrainement de l'IA) # Trouver le moyen de sauvegarder les données d'entrainement
+## en gros l'IA va apprendre par lui meme
 
 # Changement de l'échelle de nos valeurs pour être entre 0 et 1
 x_entree = x_entree/np.amax(x_entree, axis=0) # On divise chaque entrée par la valeur max des entrées
