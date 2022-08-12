@@ -24,7 +24,21 @@ class MyApp:
     def create_widgets(self):
         self.create_title()
         self.create_subtitle()
+        self.create_field_input()
         self.create_generate_button()
+        
+    def create_field_input(self):
+        donnee_1_text = Label(text = "donnée1 * ",)
+        donnee_2_text = Label(text = "donnée2 * ",)
+        donnee_1_text.place(x=15, y=70)
+        donnee_2_text.place(x=15, y=140)
+        donnee_1_text = IntVar()
+        donnee_2_text = IntVar()
+        donnee_1_text_entree = Entry(textvariable=donnee_1_text)
+        donnee_2_text_entree = Entry(textvariable=donnee_2_text)
+        donnee_1_text_entree.place(x=15, y=100)
+        donnee_2_text_entree.place(x=15, y=180)
+
 
     def create_title(self):
         label_title = Label(self.frame, text="PALANTIR", font=("Courrier", 40), bg='#41B77F',
@@ -43,6 +57,9 @@ class MyApp:
 
     def open_channel(self):
         webbrowser.open_new("http://youtube.com/gravenilvectuto")
+        
+        
+
 
 
 # afficher
