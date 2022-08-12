@@ -30,14 +30,19 @@ class MyApp:
     def create_field_input(self):
         donnee_1_text = Label(text = "donnée1 * ",)
         donnee_2_text = Label(text = "donnée2 * ",)
+        iteration = Label(text = "Itérations")
         donnee_1_text.place(x=15, y=70)
         donnee_2_text.place(x=15, y=140)
+        iteration.place(x=15, y=220)
         donnee_1_text = IntVar()
         donnee_2_text = IntVar()
+        iteration = IntVar()
         donnee_1_text_entree = Entry(textvariable=donnee_1_text)
         donnee_2_text_entree = Entry(textvariable=donnee_2_text)
+        iteration_entree = Entry(textvariable=iteration)
         donnee_1_text_entree.place(x=15, y=100)
         donnee_2_text_entree.place(x=15, y=180)
+        iteration_entree.place(x=15, y=240)
 
 
     def create_title(self):
