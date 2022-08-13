@@ -17,8 +17,8 @@ y = np.array(([1], [0], [1],[0],[1],[0],[1],[0]), dtype=float) # données de sor
 x_entree = x_entree/np.amax(x_entree, axis=0) # On divise chaque entrée par la valeur max des entrées
 
 # On récupère ce qu'il nous intéresse
-X = np.split(x_entrer, [8])[0] # Données sur lesquelles on va s'entrainer, les 8 premières de notre matrice
-xPrediction = np.split(x_entrer, [8])[1] # Valeur que l'on veut trouver
+X = np.split(x_entree, [8])[0] # Données sur lesquelles on va s'entrainer, les 8 premières de notre matrice
+xPrediction = np.split(x_entree, [8])[1] # Valeur que l'on veut trouver
 
 #Notre classe de réseau neuronal
 class Neural_Network(object):
