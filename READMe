@@ -5,12 +5,13 @@ Téléchargez les fichiers Palantir.ipynb, Palantir_request_beta.ipynb, données
 
 Le modèle présenté est constitué de 2 neurones d'entrée, 3 neurones dans la couche cachée et 1 sortie.
 
-Le principe repose sur la fonction sygmoïde. Le programme est paramétré sur 5000 itérations.
+Le principe repose sur la fonction sygmoïde.
 
 1/Lancez Palantir.ipynb (utilisable avec Jupyter Notebook)
 
 Apprentissage:
 2/Introduisez vos couples de données quantitatives et 1 résultat (1 ou 0)
+Entrez le nombre d'itérations (seul la première entrée sera prise en compte)
 Les données sont stockées dans le fichier données.xlsx (ne pas rentrer les données directement dans le fichier)
 A la fin, rentrez un dernier couple voulu pour la prédiction et 1 résultat (le dernier résultat ne sera pas prise en compte)
 
