@@ -61,7 +61,7 @@ class MyApp:
         yt_button.pack(pady=25, fill=X)
 
     def open_channel(self):
-        webbrowser.open_new("http://youtube.com/gravenilvectuto")
+        webbrowser.open_new("lien")
         
         
 
