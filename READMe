@@ -2,21 +2,28 @@
 
 Installez python et les librairies numpy, openpyxl, pandas.
 Téléchargez les fichiers Palantir.ipynb, Palantir_request_beta.ipynb, données.xlsx dans un même dossier.
+Assurez vous que le fichier données.xlsx soit vierge.
 
 Le modèle présenté est constitué de 2 neurones d'entrée, 3 neurones dans la couche cachée et 1 sortie.
 
-Le principe repose sur la fonction sygmoïde.
+Le principe repose sur la fonction sigmoïde.
 
 1/Lancez Palantir.ipynb (utilisable avec Jupyter Notebook)
 
 Apprentissage:
-2/Introduisez vos couples de données quantitatives et 1 résultat (1 ou 0)
-Entrez le nombre d'itérations (seul la première entrée sera prise en compte)
+2/Introduisez vos couples de données quantifiables (exemple: nom: requin donnée1: 6.5 (longueur), donnée2: 600 (kg), résultat: 0 (qui définit le requin)
+nom: orque, donnée1: 8 (longueur), donnée2: 1600 (kg), résultat: 1 (qui définit l'orque)).
+Vous pouvez entrer un nombre indéterminé de couples de données. L'IA va faire une prédiction sur le dernier couple.
+
+Entrainement:
+Entrez le nombre d'itérations (seul la première entrée sera prise en compte, plus le nombre sera grand, plus l'IA sera précise
+ne pas mettre un nombre trop grand pour éviter de faire crasher l'ordi,5000 étant bien)
 Les données sont stockées dans le fichier données.xlsx (ne pas rentrer les données directement dans le fichier)
 A la fin, rentrez un dernier couple voulu pour la prédiction et 1 résultat (le dernier résultat ne sera pas prise en compte)
 
-Entrainement:
+
 3/Lancez Palantir_request_beta.ipynb
+Si vous lancer avec jupyter notebook, veuiller à mettre en route chaque morceau du code (alt+entrée)
 
 Et voilà!
 
