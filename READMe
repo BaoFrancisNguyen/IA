@@ -12,7 +12,7 @@ Le principe repose sur la fonction sigmoïde.
 
 Apprentissage:
 2/Introduisez vos couples de données quantifiables (exemple: nom: requin donnée1: 6.5 (longueur), donnée2: 600 (kg), résultat: 0 (qui définit le requin)
-nom: orque, donnée1: 8 (longueur), donnée2: 1600 (kg), résultat: 1 (qui définit l'orque)).
+nom: orque, donnée1: 8 (longueur), donnée2: 1600 (kg), résultat: 1 (qui définit l'orque)) ansi que qu'un nombre d'itération (juste la premère fois)
 Vous pouvez entrer un nombre indéterminé de couples de données. L'IA va faire une prédiction sur le dernier couple.
 
 Entrainement:
